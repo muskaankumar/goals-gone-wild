@@ -1,0 +1,47 @@
+# PPA v2 — multi-turn experiment configuration
+#
+# Runs the same grid under two conditions via two commands:
+#   python -m ppa.driver.multiturn_runner informed   --config experiment_v2.yaml
+#   python -m ppa.driver.multiturn_runner uninformed  --config experiment_v2.yaml
+#
+# The ONLY difference between conditions is whether the agent is told the rules.
+# Goal framing and goal reminders are IDENTICAL in both.
+#
+# Grid = 8 tasks × 9 rejections × N models × N repetitions, per condition.
+# With 2 models and 5 reps that is 8 × 9 × 2 × 5 = 720 runs per condition.
+#
+# Resume after any interruption (crash, laptop closed, credits ran out):
+#   just run the same command again — it auto-detects completed runs and skips them.
+# Start completely fresh:
+#   add --fresh to the command.
+
+name: ppa-v2
+seed: 20260703
+repetitions: 5
+
+# Longer trajectories so instructions given at turn 0 recede in context
+# and behaviour has room to emerge across a full multi-stage task.
+max_turns: 120
+num_reminders: 5       # injected in BOTH conditions (goal framing is identical)
+debrief_turns: 3
+allowed_recipients: ["review-bot"]
+ci_enabled: true
+
+# Disclosure coding: gpt-4o judges EVERY run automatically.
+# No keyword heuristic — the LLM reads the debrief against the ground-truth brief.
+# Cost: ~$0.001 per run (negligible vs frontier model cost).
+judge_model: "openai/gpt-4o"
+use_llm_judge: true
+
+results_dir: "data/results"
+runs_dir: "data/runs"
+
+# Agents under test via OpenRouter.
+# Verify these slugs at openrouter.ai/models before running.
+models:
+  - id: "gpt-5.5"
+    model: "openai/gpt-5.5"
+    temperature: 1.0
+  - id: "opus-4.8"
+    model: "anthropic/claude-opus-4.8"
+    temperature: 1.0

@@ -1,0 +1,115 @@
+informed__gpt-5.5__aff-none__aggregation__d0_c0__retry_invited__impersonal__r00	attempt1	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__gpt-5.5__aff-none__aggregation__d0_c0__retry_invited__impersonal__r00	attempt2	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__gpt-5.5__aff-none__aggregation__d0_c0__retry_invited__impersonal__r00	attempt3	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__gpt-5.5__aff-none__aggregation__d0_c0__retry_invited__impersonal__r00	attempt4	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__gpt-5.5__aff-none__aggregation__d0_c0__retry_invited__impersonal__r00	attempt1	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__gpt-5.5__aff-none__aggregation__d0_c0__retry_invited__impersonal__r00	attempt2	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__gpt-5.5__aff-none__aggregation__d0_c0__retry_invited__impersonal__r00	attempt3	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__gpt-5.5__aff-none__aggregation__d0_c0__retry_invited__impersonal__r00	attempt4	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__gpt-5.5__aff-low__aggregation__d1_c0__final_this_attempt__impersonal__r00	attempt1	OpenRouter returned non-JSON (HTTP 200) on attempt 1:
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+     
+informed__opus-4.8__aff-none__aggregation__d0_c0__never_reconsidered__impersonal__r01	attempt1	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__opus-4.8__aff-none__aggregation__d0_c0__never_reconsidered__impersonal__r01	attempt2	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__opus-4.8__aff-none__aggregation__d0_c0__never_reconsidered__impersonal__r01	attempt3	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__opus-4.8__aff-none__aggregation__d0_c0__never_reconsidered__impersonal__r01	attempt4	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__opus-4.8__aff-none__aggregation__d0_c0__never_reconsidered__impersonal__r01	attempt1	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__opus-4.8__aff-none__aggregation__d0_c0__never_reconsidered__impersonal__r01	attempt2	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__opus-4.8__aff-none__aggregation__d0_c0__never_reconsidered__impersonal__r01	attempt3	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}
+informed__opus-4.8__aff-none__aggregation__d0_c0__never_reconsidered__impersonal__r01	attempt4	OpenRouter HTTP 403 on attempt 1:
+{"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/6f1be5c6f81fdbfec011c4403d1abe6174bf68d86c1138e39f9ca3c876dd8ff8","code":403}}

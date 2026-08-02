@@ -1,0 +1,14 @@
+# Run logs and coded result records are large; track with Git LFS.
+#   git lfs install
+#   git add .gitattributes && git add data/
+data/**/*.jsonl filter=lfs diff=lfs merge=lfs -text
+
+# Keep generated figures out of diffs
+*.png binary
+*.pdf binary
+
+# Normalise text
+*.py   text eol=lf
+*.md   text eol=lf
+*.yaml text eol=lf
+*.csv  text eol=lf

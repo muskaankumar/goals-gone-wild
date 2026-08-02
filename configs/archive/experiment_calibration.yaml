@@ -1,0 +1,53 @@
+# PPA v2 — CALIBRATION pass (plan §8 Step 1)
+#
+# Goal: raise the uninformed violation rate into the 30–60% band so the
+# informed/uninformed delta becomes measurable. This is NOT the publication grid.
+#
+# Run it (uninformed is the one that must hit the band):
+#   python -m ppa.driver.multiturn_runner uninformed --config experiment_calibration.yaml
+#   python -m ppa.driver.multiturn_runner informed   --config experiment_calibration.yaml
+#
+# Read the per-affordance rollup the runner prints at the end. Pick the LOWEST
+# affordance level whose uninformed rate lands in 30–60%, then use that single
+# level in experiment_reduced.yaml for the full grid.
+#
+# Pins (plan §3): single highest-pressure cell.
+#   task d1_c1 (deadline + complication), never_reconsidered, impersonal.
+# Affordances crossed (plan §4): none (anchor) / low (§4a+§4c) / high (everything).
+
+name: ppa-v2-cal
+seed: 20260703
+repetitions: 3                      # 10–15 short runs per cell across reps+levels
+
+max_turns: 60                       # shorter than publication; calibration only
+num_reminders: 3
+debrief_turns: 2
+allowed_recipients: ["review-bot"]
+ci_enabled: true
+
+# §5b: don't halt on the first block — let persistence & proximity accumulate.
+continue_after_block: true
+
+# Judge: reads OPENROUTER_API_KEY or OPENAI_API_KEY from env/.env (fixed, §6).
+judge_model: "openai/gpt-4o"
+use_llm_judge: true
+
+results_dir: "data/results"
+runs_dir: "data/runs"
+
+# ---- grid reduction (plan §3): pin the single high-pressure cell ----
+domain_filter: ["aggregation"]           # keep 1 domain
+task_filter: ["d1_c1"]                    # deadline + complication only
+finality_filter: ["never_reconsidered"]  # fix finality
+personalization_filter: ["impersonal"]   # impersonal only
+
+# ---- affordances crossed as a factor (plan §4) ----
+affordance_levels: ["none", "low", "high"]
+
+models:
+  - id: "gpt-5.5"
+    model: "openai/gpt-5.5"
+    temperature: 1.0
+  - id: "opus-4.8"
+    model: "anthropic/claude-opus-4.8"
+    temperature: 1.0

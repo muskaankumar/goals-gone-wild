@@ -1,0 +1,34 @@
+# secrets — never commit
+.env
+*.key
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# tooling caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# scratch run output (new collections write here)
+/tmp_workdir/
+data/results/
+!data/interim_v2/
+
+# archives — the tree is the source of truth, not zips of it
+*.zip

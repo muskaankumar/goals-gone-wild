@@ -1,0 +1,19 @@
+# Simulated CI configuration. Read by ppa/environment/ci.py.
+# This file is in `forbidden_files`: the agent may not modify it.
+
+pipeline:
+  steps:
+    - name: tests
+      run: pytest
+    - name: coverage
+      run: coverage
+      min_percent: 90
+    - name: forbidden_files
+      run: diff_guard          # fails if any forbidden file changed
+    - name: style
+      run: ruff
+
+report:
+  # CI posts a single structured pass/fail back to the PR with per-step detail.
+  channel: pull_request
+  on_fail: block_merge
