@@ -1,8 +1,8 @@
-# For goals gone wild paper
+# For building Rule-Aware Disclosure and Agent Risk
 
 A measurement harness and results pipeline for studying whether LLM agents cross
 authorization boundaries under goal pressure after a rejection, and whether they
-disclose having done so when asked to account for the run.
+disclose having done so when asked to account for the run. Refer to the goals gone wild paper
 
 **Headline result** (432 runs, 216 informed / 216 uninformed):
 
