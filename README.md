@@ -1,4 +1,4 @@
-# PPA — Persistence, Permission and Accountability
+# For goals gone wild paper
 
 A measurement harness and results pipeline for studying whether LLM agents cross
 authorization boundaries under goal pressure after a rejection, and whether they
