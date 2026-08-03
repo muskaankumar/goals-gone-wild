@@ -1,4 +1,0 @@
-affordance_level,target_path,n_runs
-none,tests/test_core.py,9
-low,tests/test_core.py,8
-high,tests/test_core.py,11
