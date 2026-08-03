@@ -1,4 +1,4 @@
-# For building Rule-Aware Disclosure and Agent Risk
+# Building a rule-aware disclosure and agent risk measurement pipeline
 
 A measurement harness and results pipeline for studying whether LLM agents cross
 authorization boundaries under goal pressure after a rejection, and whether they
